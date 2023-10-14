@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-import Me from './page/me';
-import ChangePassword from './page/changePassword';
-import Categories from './page/categories';
-import EditMe from './page/editMe';
-import ReviewHistory from './page/reviewHis'
-import EditReview from './page/editReview';
+import Me from './screen/me';
+import ChangePassword from './screen/changePassword';
+import Categories from './screen/categories';
+import EditMe from './screen/editMe';
+import ReviewHistory from './screen/reviewHis'
+import EditReview from './screen/editReview';
 
 export default function App() {
   return (
