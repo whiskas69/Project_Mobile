@@ -28,7 +28,9 @@ const ChooseScreen = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#F4EEEE'
+        backgroundColor: '#F4EEEE',
+        // justifyContent: 'center',
+        // alignItems: 'center'
     }
 });
 
