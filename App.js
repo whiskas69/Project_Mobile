@@ -1,12 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-import MyNavigator from './navigation/MyNavigator'
+import MyNavigator from './navigations/MainNavigation';
 
 export default function App() {
-  return (
-    <MyNavigator/>
-  );
+  return <MyNavigator/>
 }
 
 const styles = StyleSheet.create({
