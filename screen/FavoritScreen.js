@@ -26,7 +26,8 @@ const FavoriteScreen = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#F4EEEE'
+        backgroundColor: '#F4EEEE',
+        marginTop : 10
     }
 });
 
