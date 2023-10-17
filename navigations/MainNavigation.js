@@ -5,10 +5,10 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Ionicons, AntDesign, MaterialIcons, FontAwesome5 } from '@expo/vector-icons';
 
-import MainScreen from "../screen/MainScreen";
-import Categories from "../screen/CategoryScreen";
-import Favorite from "../screen/FavoritScreen";
-import Profile from "../screen/ProfileScreen"
+import MainScreen from "../screen/Main/MainScreen";
+import Categories from "../screen/Category/CategoryScreen";
+import Favorite from "../screen/Favorit/FavoritScreen";
+import Profile from "../screen/Profile/ProfileScreen"
 
 const HomeNavigator = createNativeStackNavigator();
 const CategoryNavigator = createNativeStackNavigator();

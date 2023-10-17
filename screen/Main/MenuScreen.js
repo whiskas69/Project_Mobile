@@ -1,9 +1,9 @@
 import React from "react";
 import { Text, View, StyleSheet, ScrollView } from "react-native";
 
-import Searchbar from "../components/SearchInput";
-import RestaurantItem from "../components/RestaurantItem";
-import MenuItem from "../components/MenuItem";
+import Searchbar from "../../components/SearchInput";
+import RestaurantItem from "../../components/RestaurantItem";
+import MenuItem from "../../components/MenuItem";
 
 const MenuScreen = () => {
     return (

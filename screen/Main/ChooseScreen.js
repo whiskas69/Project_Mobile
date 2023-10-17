@@ -1,12 +1,14 @@
 import React from "react";
 import { Text, View, StyleSheet, ScrollView } from "react-native";
 
-import Searchbar from "../components/SearchInput";
-import RestaurantItem from "../components/RestaurantItem";
+import Searchbar from "../../components/SearchInput";
+import RestaurantItem from "../../components/RestaurantItem";
 
-const FavoriteScreen = () => {
+const ChooseScreen = () => {
     return (
         <View style={styles.container}>
+            <Searchbar/>
+
             <ScrollView showsVerticalScrollIndicator={false}>
                 {/* <Text style={{}}>ร้านอาหารยอดนิยม</Text> */}
                 <RestaurantItem/>
@@ -27,8 +29,9 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#F4EEEE',
-        marginTop : 10
+        // justifyContent: 'center',
+        // alignItems: 'center'
     }
 });
 
-export default FavoriteScreen;
+export default ChooseScreen;

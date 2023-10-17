@@ -1,9 +1,9 @@
 import React from "react";
 import { Text, View, StyleSheet, Button } from "react-native";
 
-import Searchbar from "../components/SearchInput";
-import Buttonlocation from "../components/Buttonlocation";
-import Carousel from "../components/Carousel";
+import Searchbar from "../../components/SearchInput";
+import Buttonlocation from "../../components/Buttonlocation";
+import Carousel from "../../components/Carousel";
 
 const MainScreen = () => {
     return (
